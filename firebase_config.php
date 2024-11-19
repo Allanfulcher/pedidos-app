@@ -1,13 +1,13 @@
 ﻿<script>
 // Firebase Configuration
 const firebaseConfig = {
-            apiKey: "AIzaSyB9ICCaSMc_lBQz3oa1JH3jYdXTQadLK78",
-            authDomain: "povao-c48f4.firebaseapp.com",
-            projectId: "povao-c48f4",
-            storageBucket: "povao-c48f4.firebasestorage.app",
-            messagingSenderId: "34339107265",
-            appId: "1:34339107265:web:da5db731f51f211cc07f40"
-        };
+    apiKey: "SUA_API_KEY",
+    authDomain: "SEU_PROJETO.firebaseapp.com",
+    projectId: "SEU_PROJETO",
+    storageBucket: "SEU_PROJETO.appspot.com",
+    messagingSenderId: "SEU_SENDER_ID",
+    appId: "SEU_APP_ID"
+};
 
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
